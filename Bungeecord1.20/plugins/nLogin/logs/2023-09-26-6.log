@@ -1,0 +1,19 @@
+[09/26/2023 14:37:01]:           __             _       
+[09/26/2023 14:37:01]:   _ __   / /  ___   __ _(_)_ __  
+[09/26/2023 14:37:01]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[09/26/2023 14:37:01]:  | | | / /__| (_) | (_| | | | | |
+[09/26/2023 14:37:01]:  |_| |_\____/\___/ \__, |_|_| |_|
+[09/26/2023 14:37:01]:                   |___/            
+[09/26/2023 14:37:01]:  By: www.nickuc.com - V 10.1.16
+[09/26/2023 14:37:01]: 
+[09/26/2023 14:37:02]: [nLogin] [DEBUG] All settings were loaded in 95 ms.
+[09/26/2023 14:37:02]: [nLogin] [DEBUG] Loading the messages_br.yml message file...
+[09/26/2023 14:37:02]: [nLogin] [DEBUG] All plugin messages were loaded in 34 ms (languageByClient=false).
+[09/26/2023 14:37:02]: [nLogin] [DEBUG] All proxy settings were loaded in 8 ms.
+[09/26/2023 14:37:02]: [nLogin] [DEBUG] Starting logger filter...
+[09/26/2023 14:37:02]: [nLogin] [DEBUG] Loading database...
+[09/26/2023 14:37:02]: [nLogin] nLogin foi carregado em 524ms.
+[09/26/2023 14:58:36]: [nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `realname` = 'GustavoxLB', `uniqueId` = 33bc056fca6c3da3af02a4a761a8d837,  `premiumId` = null,  `premium` = -1,  `password` = '$SHA512$a06b53a1800039ce431c3df9102b0f64bed4874a1ddffa7e9173e3d6bcf12b1334f626b02325f26867fdc671100ad43236fb14a564774a4146d42b15d66290a2$PimdNWEdEDyMJSCSryJVFBek', `address` = '127.0.0.1', `regdate` = 2023-07-15 21:33:53.07, `lastlogin` = 2023-09-26 14:58:36.081, `email` = null, `twitter` = null, `discord` = null, `settings` = '{"settings":[{"value":"E6qvbKcV0v6M12W0+CxDim1fXIZzvzjkX040a1o0oJVdEjoRs9vGP4wA42DvnLLyCTyoiP4dkrFyDtOtW+T897hxEzfFI+GzZw/Y4vLHEOmeOjHWRwaJTzhgMH+zj0LYcEXETXBjfVXbDSEud0YKJNMs/CzTaeweCQnQW/yB/RgGHkUp4pEgGXVH2gi5WkxRL9XIlviox76lo4xSdk2YIN4m7y50TD3ySsXgG2SaKfjlOC8ERS1ZdpTFMZpKl5ZQI1vrjASVaTJGvH47HH67WR8lnuPKSzcAxrWiHE/iZKJSd8c/RJK9d9L7UpYKe/ox/JwinhzQFLauKrebpk3oI8j4au3k4uCRe1NJ865Apyid/ay72+umgjg34PhxrBQPdlCfzsctOZKvy94CyygZy+AWo2O9cV41blczxNnrexN7pYqiVSDzFLdRCthnwDbAtcAJeUTl1b07KCBn3TCowkpEvdI+k5x0DxTNo80YGzoFOtctK1T07qh7x0gRe2CyXGaqsupRsoGD36PiYWDiUEA+Cfy6pnFZmHx0xxzUJPwOyYCXj6SbpOgKjpLCGoi4uYesg7vOtvZu0G0noES6US/h8juQXqx4ywdBlugjo9ALNOh2vw9EoO7DfY94toU+VP6Ftg05rkgyxP/IBgrrtcCnLvqmKOdvhFwrzfG/2/k=:jTJJ2t4iGoUWB/diDpP09RYyem5RBS0mG1jAw0+12oXDFcca++2F+U7C5zlYdBuMkS4=","key":"encrypted"}],"version":0}' WHERE `id` = 1"
+[09/26/2023 14:58:36]: [nLogin] O usuário GustavoxLB se autenticou com sucesso.
+[09/26/2023 15:01:22]: [nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `realname` = 'GustavoxLB', `uniqueId` = 33bc056fca6c3da3af02a4a761a8d837,  `premiumId` = null,  `premium` = -1,  `password` = '$SHA512$a06b53a1800039ce431c3df9102b0f64bed4874a1ddffa7e9173e3d6bcf12b1334f626b02325f26867fdc671100ad43236fb14a564774a4146d42b15d66290a2$PimdNWEdEDyMJSCSryJVFBek', `address` = '127.0.0.1', `regdate` = 2023-07-15 21:33:53.07, `lastlogin` = 2023-09-26 15:01:22.414, `email` = null, `twitter` = null, `discord` = null, `settings` = '{"settings":[{"value":"E6qvbKcV0v6M12W0+CxDim1fXIZzvzjkX040a1o0oJVdEjoRs9vGP4wA42DvnLLyCTyoiP4dkrFyDtOtW+T897hxEzfFI+GzZw/Y4vLHEOmeOjHWRwaJTzhgMH+zj0LYcEXETXBjfVXbDSEud0YKJNMs/CzTaeweCQnQW/yB/RgGHkUp4pEgGXVH2gi5WkxRL9XIlviox76lo4xSdk2YIN4m7y50TD3ySsXgG2SaKfjlOC8ERS1ZdpTFMZpKl5ZQI1vrjASVaTJGvH47HH67WR8lnuPKSzcAxrWiHE/iZKJSd8c/RJK9d9L7UpYKe/ox/JwinhzQFLauKrebpk3oI8j4au3k4uCRe1NJ865Apyid/ay72+umgjg34PhxrBQPdlCfzsctOZKvy94CyygZy+AWo2O9cV41blczxNnrexN7pYqiVSDzFLdRCthnwDbAtcAJeUTl1b07KCBn3TCowkpEvdI+k5x0DxTNo80YGzoFOtctK1T07qh7x0gRe2CyXGaqsupRsoGD36PiYWDiUEA+Cfy6pnFZmHx0xxzUJPwOyYCXj6SbpOgKjpLCGoi4uYesg7vOtvZu0G0noES6US/h8juQXqx4ywdBlugjo9ALNOh2vw9EoO7DfY94toU+VP6Ftg05rkgyxP/IBgrrtcCnLvqmKOdvhFwrzfG/2/k=:jTJJ2t4iGoUWB/diDpP09RYyem5RBS0mG1jAw0+12oXDFcca++2F+U7C5zlYdBuMkS4=","key":"encrypted"}],"version":0}' WHERE `id` = 1"
+[09/26/2023 15:01:22]: [nLogin] O usuário GustavoxLB se autenticou com sucesso.

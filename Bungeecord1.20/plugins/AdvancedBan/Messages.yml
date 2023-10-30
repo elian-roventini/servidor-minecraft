@@ -1,0 +1,256 @@
+﻿General:
+  Prefix: ""
+  NoPerms: "&cVocê não tem permissão para executar este comando."
+  LayoutNotFound: "&cNão há layout chamado %NAME%."
+  # This will be the replacement for the %DURATION% variable
+  TimeLayoutD: "%D% dia(s) %H%  hora(s) %M% minuto(s) e %S% segundo(s)"
+  TimeLayoutH: "%H% hora(s) %M% minuto(s) e %S% segundo(s)"
+  TimeLayoutM: "%M% minuto(s) e %S% segundo(s)"
+  TimeLayoutS: "%S% segundo(s)"
+  FailedFetch: "&cNão foi possível encontrar o UUID de %NAME%! Veja o console para mais detalhes."
+
+
+Ban:
+  Usage: "&cUtilize /ban <usuário> para banir um usuário."
+  Done: "&aO usuário %NAME% foi banido com sucesso!"
+  AlreadyDone: "&cO usuário %NAME% já se encontra banido."
+  Exempt: "&cVocê não pode banir este usuário."
+  Layout:
+  - "&cVocê está banido permanentemente do servidor."
+  - ""
+  - "&cMotivo: %REASON%"
+  - "&cResponsável: %OPERATOR%"
+  - ""
+  - "&cPara fazer uma revisão acesse: XXXX"
+  Notification:
+  - ""
+  - "&c (!) %NAME% foi banido por %OPERATOR%."
+  - "&c (!) Motivo: %REASON%"
+  - "&c (!) Duração: Permanente"
+  - ""
+Ipban:
+  Usage: "&cUtilize /banip <IP> <motivo> para banir um usuário pelo IP."
+  Layout:
+  - "&cSeu IP está banido do servidor."
+  - ""
+  - "&cMotivo: %REASON%"
+  - "&cResponsável: %OPERATOR%"
+  - ""
+  - "&cPara fazer uma revisão acesse: XXXX"
+  Notification:
+  - ""
+  - "&c (!) %NAME% foi ban-ip por &c%OPERATOR%."
+  - "&c (!) Motivo: %REASON%"
+  - "&c (!) Duração: Permanente"
+  - ""
+  IpNotCashed: "&cO usuário %NAME% não tem um IP listado no servidor."
+
+Tempban:
+  Usage: "&cUtilize /tempban <usuário> <tempo> <motivo> para banir um usuário temporariamente."
+  MaxDuration: "&cVocê não pode banir por mais de %MAX% segundos."
+  Layout:
+  - "&cVocê foi banido temporariamente do servidor."
+  - ""
+  - "&cMotivo: %REASON%"
+  - "&cResponsável: %OPERATOR%"
+  - ""
+  - "&cPara fazer uma revisão acesse: XXXX"
+  Notification:
+  - ""
+  - "&c (!) %NAME% foi banido temporariamente por %OPERATOR%."
+  - "&c (!) Motivo: %REASON%"
+  - "&c (!) Duração: %DURATION%"
+  - ""
+
+Tempipban:
+  Usage: "&cUtilize /tempipban <IP> <tempo> <motivo> para banir um usuário pelo IP temporariamente."
+  MaxDuration: "&cVocê não pode banir este usuário por mais de %MAX% segundos."
+  Layout:
+  - "&cSeu IP está banido temporariamente do servidor."
+  - ""
+  - "&cMotivo: %REASON%"
+  - "&cResponsável: %OPERATOR%"
+  - ""
+  - "&cPara fazer uma revisão acesse: XXXX"
+  Notification:
+  - ""
+  - "&c (!) %NAME% foi ban-ip temporariamente por %OPERATOR%."
+  - "&c (!) Motivo: %REASON%"
+  - "&c (!) Duração: %DURATION%"
+  - ""
+Mute:
+  Usage: "&cUtilize /mute <usuário> <motivo> para silenciar um usuario permanentemente."
+  Done: "&aO usuário %NAME% foi silenciado com sucesso!"
+  AlreadyDone: "&cO usuário %NAME% já está silenciado."
+  Exempt: "&cVocê não pode silenciar este usuário."
+  Layout:
+  - "&cVocê foi silenciado permanentemente."
+  - ""
+  - "&cMotivo: %REASON%"
+  - "&cResponsável: %OPERATOR%"
+  - ""
+  - "&cPara fazer uma revisão acesse: XXXX"
+  Notification:
+  - ""
+  - "&c (!) %NAME% foi silenciado por %OPERATOR%."
+  - "&c (!) Motivo: %REASON%"
+  - "&c (!) Duração: %DURATION%"
+  - ""
+Tempmute:
+  Usage: "&cUtilize /tempmute <usuário> <tempo> <motivo> para silenciar um usuario temporariamente."
+  MaxDuration: "&cVocê não pode silenciar um usuário por mais de %MAX% segundos."
+  Layout:
+  - "&cVocê foi silenciado temporariamente."
+  - ""
+  - "&cMotivo: %REASON%"
+  - "&cResponsável: %OPERATOR%"
+  - ""
+  - "&cPara fazer uma revisão acesse: XXXX"
+  Notification:
+  - "&c (!) %NAME% foi mutado temporariamente por %OPERATOR%."
+  - "&c (!) Motivo: %REASON%"
+  - "&c (!) Duração: %DURATION%"
+
+Warn:
+  Usage: "&cUtilize /warn <usuário> <motivo> para alertar um usuário."
+  Done: "&aO usuário %NAME% foi alertado com sucesso!"
+  Exempt: "&cVocê não pode alertar o usuário %NAME%."
+  Layout:
+  - "&cVocê está sendo alertado."
+  - ""
+  - "&cMotivo: %REASON%"
+  - "&cResponsável: %OPERATOR%"
+  - ""
+  - "&cVocê tem %COUNT% alertas totais em sua conta."
+  - ""
+  Notification:
+  - ""
+  - "&c (!) %NAME% foi alertado por %OPERATOR%."
+  - "&c (!) Motivo: %REASON%"
+  - ""
+
+Tempwarn:
+  Usage: "&cUtilize /tempwarn <usuário> <tempo> <motivo> para alertar um usuário temporariamente."
+  MaxDuration: "&cVocê não pode alertar por mais de %MAX% segundos."
+  Layout:
+  - "&cVocê está sendo alertado temporariamente."
+  - ""
+  - "&cMotivo: %REASON%"
+  - "&cResponsável: %OPERATOR%"
+  - ""
+  - "&cVocê tem %COUNT% alertas totais em sua conta."
+  - ""
+  Notification:
+  - ""
+  - "&c (!) %NAME% foi alertado por %OPERATOR%."
+  - "&c (!) Motivo: %REASON%"
+  - ""
+
+Kick:
+  Usage: "&cUtilize /kick <usuário> <motivo> para expulsar um usuário."
+  Done: "&aO usuário %NAME% foi expulso com sucesso!"
+  NotOnline: "&cO usuário %NAME% está off-line."
+  Exempt: "&cVocê não pode expulsar o %NAME%."
+  Layout:
+  - "&cVocê foi expulso do servidor."
+  - ""
+  - "&cMotivo: %REASON%"
+  - "&cResponsável: %OPERATOR%"
+  Notification:
+  - ""
+  - "&c (!) %NAME% foi expulso por %OPERATOR%."
+  - "&c (!) Motivo: %REASON%"
+  - ""
+
+UnBan:
+  Usage: "&cUtilize /unban <usuário ou IP> para desbanir um usuário."
+  NotPunished: "&cO usuário %NAME% não está banido."
+  Done: "&aO usuário %NAME% foi desbanido com sucesso!"
+
+UnMute:
+  Usage: "&cUtilize /unmute <usuário> para desmultar um usuário."
+  NotPunished: "&cO usuário %NAME% não está mutado."
+  Done: "&aO usuário %NAME% foi desmutado com sucesso!"
+
+UnWarn:
+  Usage: "&cUtilize /unwarn [ID] ou /unwarn clear <usuário>."
+  NotFound: "&cNenhuma alerta encontrado (#%ID%)."
+  Done: "&aAlertas #%ID% deletadas com sucesso!"
+  Clear:
+    Empty: "&cO usuário %NAME% não tem alertadas em sua conta."
+    Done: "&a%COUNT% alertas foram limpas com sucesso!"
+
+UnPunish:
+  Usage: "&cUtilize /unpunish [ID]."
+  NotFound: "&cNão foi possível encontrar punição #%ID%."
+  Done: "&aPunição #%ID% deletada com sucesso!"
+
+
+Banlist:
+  Usage: "&cUtilize /banlist <pagina>."
+  OutOfIndex: "&cNão há página %PAGE%."
+  NoEntries: "&cNão há entradas."
+  Header:
+  - "&eLista de banimentos:"
+  - "&fUsário/IP &8- &fDuração &8- &fbanido por"
+  - "&fTipo &8- &fMotivo"
+  - ""
+  Entry:
+  - "&7%DATE%"
+  - "&7%NAME% &8- &7%DURATION% &8- &7%OPERATOR%"
+  - "&7%TYPE% &8- &7%REASON%"
+  - ""
+  Footer: "&ePágina &7%CURRENT_PAGE% &edo &7%TOTAL_PAGES% &8- &eBanimentos: &7%COUNT%"
+  PageFooter: "&eUtilize &7/banlist %NEXT_PAGE% &epara ver a próxima página."
+
+History:
+  Usage: "&cUtilize /history [usuário/IP] <página>."
+  OutOfIndex: "&cPágina %PAGE% não foi encontrada."
+  NoEntries: "&cNão foi possível encontrar o histórico de %NAME%."
+  Header:
+  - "&eHistórico de %NAME%:"
+  - "&fNome &8- &fDuração &8- &fResponsável"
+  - "&fTipo &8- &fMotivo"
+  - ""
+  Entry:
+  - "&7%DATE%"
+  - "&7%NAME% &8- &7%DURATION% &8- &7%OPERATOR%"
+  - "&7%TYPE% &8- &7%REASON%"
+  - ""
+  Footer: "&ePágina &7%CURRENT_PAGE% &ede &7%TOTAL_PAGES% &8- &eBanimentos: &7%COUNT%"
+  PageFooter: "&eUtilize &7/history %NAME% %NEXT_PAGE% &epara ver a próxima página."
+
+Warns:
+  Usage: "&cUtilize /warns <usário> <página>."
+  OutOfIndex: "&cNão há página %PAGE%."
+  NoEntries: "&c%NAME% não tem alertadas em sua conta."
+  Header:
+  - "&eAlertas de %NAME%:"
+  - "&fUsuário &8- &fDuração &8| &fResponsável"
+  - "&f#ID  &8- &fMotivo"
+  - ""
+  Entry:
+  - "&7%DATE%"
+  - "&7%NAME% &8| &7%DURATION% &8| &7%OPERATOR%"
+  - "&7#%ID%  &8| &7%REASON%"
+  - ""
+  Footer: "&ePágina &7%CURRENT_PAGE% &ede &7%TOTAL_PAGES% &8- &eAlertas totais: &7%COUNT%"
+  PageFooter: "&eUtilize &7/warns %NAME% %NEXT_PAGE% &epara ver a próxima página."
+
+ChangeReason:
+  Usage: "&cUtilize /change-reason [ID/mute] <motivo>."
+  Done: "&aPunição #%ID% alterada com sucesso!"
+  NotFound: "&cPunição não foi encontrada em nosso banco de dados."
+
+Check:
+  Usage: "&cUtilize /check <usuário> para verificar um usuário."
+  Header: "&eVerificação de %NAME%:"
+  UUID: "&fUUID: &7%UUID%"
+  IP: "&fIP: &7%IP%"
+  Geo: "&fLocalização &7%LOCATION%"
+  Mute: "&fSilenciado: &7%DURATION%"
+  MuteReason: "&fMotivo: &7%REASON%"
+  Ban: "&fBanido: &7%DURATION%"
+  BanReason: "&fMotivo: &7%REASON%"
+  Warn: "&fAlertas: &7%COUNT%"
+  NotFound: "&cO usuário %NAME% não foi encontrado."

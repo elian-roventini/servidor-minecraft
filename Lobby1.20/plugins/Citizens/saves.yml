@@ -1,0 +1,111 @@
+# Citizens NPC Storage
+
+last-created-npc-id: 1
+npc:
+  '1':
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1NzgzNjQwNjI3MzAsInByb2ZpbGVJZCI6IjgyNDQ3NmJjZGRkZTQxYWE4MThiNjM2ODFiODJmNGYwIiwicHJvZmlsZU5hbWUiOiJTZWNyM3RzQlIiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzhhYTNhMjFiNDc0YzVjZjI1Y2QxMWJkNTRjZTY1Njc0ZGRlMzhlMDY1NTU4NTU4Y2U1YTFkNDQ0MDA2Zjg5YmUifX19
+      cached-skin-uuid-name: secr3tsbr
+      cached-skin-uuid: 824476bc-ddde-41aa-818b-63681b82f4f0
+      player-skin-name: secr3tsbr
+      nameplate-visible: 'false'
+      player-skin-signature: FyF61amxjmO5cOam5FkEy8HH8ZhE35b1kwtilsh/+b3FgCRbg7zVRMBsv2T7oZbW0QEFNhpK5Lm0fJA7ZNi4nYrxRdSJ5sLJYDw8C+GE5yQ09Dk+h1qrOtAgsoyev9YPpgIxZ4KX4QL6rcZUA53gcYdRVl1ns7L9oGt63/zwjH8A+r0/L/HQmG6vl38fBd5vdj0To/1sCmQ77X2z9/BxbuKfKmHO6eu9mMH7cVFqya4RkvG+7cpcBS1NgoEDzZZtTUjY/gxPyosD6Js+AV+KKwupJroGM0GWsBa/dwD24B9AzUD9JK9zrDyDAzPUr+hDkGDAiUqUhdFEFUOgX2Bqkvc/yG0oZ10F1Thb6iaj4HZbGhiZ0ufoG9oeRi3fwaS7rFeOiYyUhe6JdpqXtaeS2PfX2jrm6bUItNI692PN3KKW1ZCGMOH0IRGT/+heMmhB0OFNkOhPAP6fM2Ih2gf2UwWzMGJPRrARVTEnxj9l6ILICy6zq+Gb+TXNkgOb4zxNgtv/1Ft7rs/otlZrT8dJEVdzGEv7rrHyEtxUcVGOTLCjXecIb+l6eLu6IsEreqAyoSlgPJF4qwl5j1pVS/Hgiyag5CHEaQEA60CsfCT8VnNTnA+UNPFUFEFKjNE8/oX7zCm1J62O25WMD31gOhMUCmidXg1xaF9u5uHf/jW1rLk=
+    name: §1
+    uuid: c1a00fbe-3736-4e3b-b87a-4446627cec8b
+    traits:
+      inventory: {}
+      gravity:
+        enabled: false
+      scoreboardtrait: {}
+      type: PLAYER
+      spawned: true
+      location:
+        world: world
+        x: '-20.4349'
+        y: '-66.0098'
+        z: '5.4358'
+        yaw: '94.1539'
+        pitch: '-24.4982'
+        bodyYaw: 114.15393
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        disablewhilenavigating: true
+        headonly: false
+        linkedbody: false
+        perplayer: false
+        randomSwitchTargets: false
+        targetnpcs: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      owner:
+        owner: Secr3tsBR
+        uuid: 68336702-a252-3460-8b15-e02c6114642d
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+    traitnames: mounttrait,scoreboardtrait,rotationtrait,type,inventory,skintrait,owner,equipment,location,spawned,lookclose,gravity
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: false
+  '0':
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1NzgzNjQwNDU2MDAsInByb2ZpbGVJZCI6ImUyN2FkY2Q3ODlkZDQyYTM5ODM3NjZiYWJiM2IwMGZiIiwicHJvZmlsZU5hbWUiOiJTZWNyM3RzIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kMDgxYjM5ZWUwNjY3ZDQxM2Q1MGZiNTYzZjZhNmJjNWNmODRmZWJjYjc2MzAxMWRiMDUyZDhmYTQzNWM0OGNjIn19fQ==
+      cached-skin-uuid-name: secr3ts
+      cached-skin-uuid: e27adcd7-89dd-42a3-9837-66babb3b00fb
+      player-skin-name: secr3ts
+      player-skin-signature: LenmIX+w+VAgGRqcm7T0f3fyz4wpe0Yn1fLhRXTgqutfF+T0GB3qoRwmeEfu6+F8eMioJiHttaEFpSu9YjasUBtAu5NVVCFgIK0OgKnwVa1pY+fzCUeiGsB6HwKkEwEQBL4uBWich9T1Lckcc6NT01etnjNAY35d6VOAPBIjzerbuLjBsLs7rwu7qNZXwWMBcCsg88Iz7I7ZMTcfb7FrQoTeWdOo/l3Ufk27WrfAISCZWvFSllmWhx2VqsqsTlRN91rGvdv3LLqWIlvFXM1jvSb42VfI+Hr962McjAbdZZAzA+wgb173U3R6zdT8Am/UM/BgMJYWpmE/VJ/lr0cmj0+I74JapUNH89EYy7zzla9tql8tKGvIovW+pVVfDi1iLywSxPqI3e/Jqo3WdqukWgWIkluNoQ0LgoK0DqXRahXs2q+s8evV2/g+u/+HHKucI4Bq13R4fSq3Tx8UqNQTdp7aXY+sHK46HvmxiwSEbgLPrV5doCNFjNR/tduvlFvHGXE3yjHxziba72mAtpxrPYOdyNc4mGQY4pXPBlTl0t/AEH7f3vEnFQt2o3kRHCrE0U2JporjKS796unFUrP9sOa1icWHg47jmxFF4kchzG0JicswibFPfIw2HjzhuZdgpJ/7knG+0lzE6+EcPnKIVv4od/kE3hDO/bNnOmhkkoA=
+    name: §1
+    uuid: 7a8dc79e-5288-46b4-88c7-bb097d944e9f
+    traits:
+      inventory: {}
+      gravity:
+        enabled: false
+      scoreboardtrait: {}
+      type: PLAYER
+      spawned: true
+      location:
+        world: world
+        x: '-20.5115'
+        y: '-66.0098'
+        z: '-2.2994'
+        yaw: '110.2846'
+        pitch: '0.0'
+        bodyYaw: 110.2846
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        disablewhilenavigating: true
+        headonly: false
+        linkedbody: false
+        perplayer: false
+        randomSwitchTargets: false
+        targetnpcs: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      owner:
+        owner: Secr3tsBR
+        uuid: 68336702-a252-3460-8b15-e02c6114642d
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+    traitnames: mounttrait,scoreboardtrait,type,inventory,skintrait,owner,equipment,location,lookclose,spawned,gravity
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: false

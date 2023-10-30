@@ -1,0 +1,5 @@
+oq:console@#@bungee@#@send+<player>+ice
+oq:player@#@single@#@lobby@#@server
+oq:player@#@single@#@lobby@#@server
+oq:player@#@single@#@server+lobby@#@ice
+qc:4

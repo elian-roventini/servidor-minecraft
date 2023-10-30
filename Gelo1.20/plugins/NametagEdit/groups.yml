@@ -1,0 +1,66 @@
+Groups:
+  diretor:
+    Permission: nte.diretor
+    Prefix: '&4[Diretor] '
+    Suffix: ''
+    SortPriority: 1
+  desenvolvedor:
+    Permission: nte.desenvolvedor
+    Prefix: '&c[Dev] '
+    Suffix: ''
+    SortPriority: 2
+  coordenador:
+    Permission: nte.coordenador
+    Prefix: '&3[Coordenador] '
+    Suffix: ''
+    SortPriority: 3
+  administrador:
+    Permission: nte.administrador
+    Prefix: '&a[Admin] '
+    Suffix: ''
+    SortPriority: 4
+  moderador:
+    Permission: nte.moderador
+    Prefix: '&2[MOD] '
+    Suffix: ''
+    SortPriority: 5
+  ajudante:
+    Permission: nte.ajudante
+    Prefix: '&e[Ajudante] '
+    Suffix: ''
+    SortPriority: 6
+  yt+:
+    Permission: nte.ytm
+    Prefix: '&b[YT+] '
+    Suffix: ''
+    SortPriority: 7
+  yt:
+    Permission: nte.yt
+    Prefix: '&c[YT] '
+    Suffix: ''
+    SortPriority: 8
+  miniyt:
+    Permission: nte.miniyt
+    Prefix: '&c[MiniYT] '
+    Suffix: ''
+    SortPriority: 9
+  BIG++:
+    Permission: nte.big++
+    Prefix: '&4[BIG✦] '
+    Suffix: ''
+    SortPriority: 10
+  BIG+:
+    Permission: nte.big+
+    Prefix: '&b[BIG+] '
+    Suffix: ''
+    SortPriority: 11
+  BIG:
+    Permission: nte.big
+    Prefix: '&2[BIG] '
+    Suffix: ''
+    SortPriority: 12
+  membro:
+    Permission: nte.default
+    Prefix: '&8[Beta]&7 '
+    Suffix: ''
+    SortPriority: 13

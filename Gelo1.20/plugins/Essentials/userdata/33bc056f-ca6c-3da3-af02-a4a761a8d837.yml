@@ -1,0 +1,40 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: true
+timestamps:
+  lastteleport: 1695766650575
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1695766692410
+  login: 1695766539698
+  kits:
+    tools: 1689537632295
+money: '0'
+last-account-name: GustavoxLB
+logoutlocation:
+  world: a5f76f7e-063d-48aa-ab13-e6eefb6c9593
+  world-name: Stratos
+  x: 1.0000000415426483E7
+  y: 148.0
+  z: 1500008.8399631674
+  yaw: 70.05280303955078
+  pitch: 17.54108428955078
+lastlocation:
+  world: a5f76f7e-063d-48aa-ab13-e6eefb6c9593
+  world-name: Stratos
+  x: 229.75490548767215
+  y: 168.1575722345001
+  z: 141.13778664940176
+  yaw: -59.1328125
+  pitch: 8.162271499633789

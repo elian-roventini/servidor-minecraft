@@ -1,0 +1,278 @@
+
+debug: false
+newconfig: true
+update-check: true
+prefix: '&a&lBIG&6&lLANDIA&7: '
+messages: EN
+join-clear-inventory: true
+join-clear-chat: true
+join-spawn: true
+command-spawn: true
+info-commands: true
+custom-events: true
+menu: true
+disable-daylight-sensor-interaction:
+  enable: true
+  world:
+  - lobby
+  - world
+  use-spawn-radius: false
+disable-dropper-interaction:
+  enable: true
+  world:
+  - lobby
+  - world
+  use-spawn-radius: false
+disable-hopper-interaction:
+  enable: true
+  world:
+  - lobby
+  - world
+  use-spawn-radius: false
+disable-fence-gate-interaction:
+  enable: true
+  world:
+  - lobby
+  - world
+  use-spawn-radius: false
+disable-trapdoor-interaction:
+  enable: true
+  world:
+  - lobby
+  - world
+  use-spawn-radius: false
+disable-button-interaction:
+  enable: true
+  world:
+  - lobby
+  - world
+  use-spawn-radius: false
+disable-dispenser-interaction:
+  enable: true
+  world:
+  - lobby
+  - world
+  use-spawn-radius: false
+disable-noteblock-interaction:
+  enable: true
+  world:
+  - lobby
+  - world
+  use-spawn-radius: false
+disable-armorstands-interaction:
+  enable: true
+  world:
+  - lobby
+  - world
+  use-spawn-radius: false
+disable-rain:
+  enable: true
+  world:
+  - lobby
+  - world
+  use-spawn-radius: false
+disable-block-break:
+  enable: true
+  world:
+  - lobby
+  - world
+  use-spawn-radius: false
+disable-block-place:
+  enable: true
+  world:
+  - lobby
+  - world
+  use-spawn-radius: false
+disable-block-burn:
+  enable: true
+  world:
+  - lobby
+  - world
+  use-spawn-radius: false
+disable-drop-item:
+  enable: true
+  world:
+  - lobby
+  - world
+  use-spawn-radius: false
+disable-item-move:
+  enable: true
+  world:
+  - lobby
+  - world
+  use-spawn-radius: false
+disable-item-damage:
+  enable: true
+  world:
+  - lobby
+  - world
+  use-spawn-radius: false
+disable-pick-up-items:
+  enable: true
+  world:
+  - lobby
+  - world
+  use-spawn-radius: false
+disable-entity-explode:
+  enable: true
+  world:
+  - lobby
+  - world
+  use-spawn-radius: false
+disable-damage:
+  enable: true
+  world:
+  - lobby
+  - world
+  use-spawn-radius: false
+disable-hunger:
+  enable: true
+  world:
+  - lobby
+  - world
+  use-spawn-radius: false
+disable-death-message:
+  enable: true
+  world:
+  - lobby
+  - world
+  use-spawn-radius: false
+disable-creature-spawn:
+  enable: true
+  world:
+  - lobby
+  - world
+  use-spawn-radius: false
+clear-drops-on-death:
+  enable: true
+  world:
+  - lobby
+  - world
+  use-spawn-radius: false
+lobby-items:
+  enable: true
+  join-server: true
+  respawn: true
+  join-world: true
+  world:
+  - world
+  use-spawn-radius: false
+void-tp:
+  enable: true
+  level: 0
+  world:
+  - lobby
+  - world
+always-day:
+  enable: true
+  world:
+  - lobby
+  - world
+frame-protect:
+  enable: true
+  world:
+  - lobby
+  - world
+  use-spawn-radius: false
+farm-protect:
+  enable: true
+  world:
+  - lobby
+  - world
+  use-spawn-radius: false
+jump-pads:
+  enable: true
+  plate-block: LIGHT_WEIGHTED_PRESSURE_PLATE
+  plate-block-old: GOLD_PLATE
+  sound: BLOCK_PISTON_EXTEND
+  sound-old: PISTON_EXTEND
+  world:
+  - lobby
+  - world
+  use-spawn-radius: false
+join-boss-bar:
+  enable: false
+  message: ''
+  color: BLUE
+  style: NOTCHED_20
+  seconds: 10
+join-tab:
+  enable: true
+  update: 1000
+  header: |-
+    &r
+    &a&lBIG&6&lLANDIA
+    &7   www.biglandia.net
+  footer: |-
+    &r
+    &eTwitter:&f @Biglandia
+    &eDiscord:&f discord.gg/biglandia
+    &r
+    &6Uma BIG aventura te espera
+    &6em nossos servidores
+join-titles:
+  enable: true
+  fade-in: 20
+  stay: 50
+  fade-out: 10
+  title: '&6&lBem-vindo ao'
+  sub-title: '&a&lBIG&6&lLANDIA'
+join-motd:
+  enable: true
+  message:
+  - ''
+  - '&6 Olá, Bem-vindo(a) ao &a&lBIG&6&lLANDIA&6!'
+  - ''
+  - '&6 * &fContate um staff se caso precisar de ajuda.'
+  - '&6 * &fNão passe suas informações para nenhum usuário.'
+  - '&6 * &fSiga-nos no twitter: &6@BIGLANDIA'
+  - '&6 * &fAcesse nosso site: &6http://biglandia.net'
+  - ''
+  - '&f Respeite as regras e bom jogo!'
+join-action-bar:
+  enable: false
+  seconds: 10
+  message: ''
+commands-blacklist:
+  enable: true
+  bypass: big.admin
+  list:
+  - p
+  - pl
+  - '?'
+  - help
+  - plugins
+  - bukkit:plugins
+  - bukkit:pl
+  - bukkit:?
+  - bukkit:help
+  - ver
+  - version
+  - gc
+  - bukkit:version
+  - bukkit:ver
+join-clear-inventory-bypass: false
+join-clear-chat-bypass: false
+disable-door-interaction:
+  enable: true
+  use-spawn-radius: false
+  world:
+  - lobby
+  - auth
+always-night:
+  enable: false
+  world:
+  - lobby
+  - auth
+disable-tab-complete:
+  enable: false
+  bypass: superlobby.staff
+  whitelist:
+  - /warp
+  - /menu
+  - /games
+  - /info
+  - /yt
+  - /pay
+  - /tpa
+  - /tpaccept

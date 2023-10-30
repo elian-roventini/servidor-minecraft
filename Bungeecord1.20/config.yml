@@ -1,0 +1,74 @@
+enforce_secure_profile: false
+listeners:
+- query_port: 10010
+  motd: '&1Iniciando...'
+  tab_list: GLOBAL_PING
+  query_enabled: false
+  proxy_protocol: false
+  forced_hosts:
+    pvp.md-5.net: pvp
+  ping_passthrough: false
+  priorities:
+  - lobby
+  bind_local_address: true
+  host: 0.0.0.0:10010
+  max_players: 1000
+  tab_size: 60
+  force_default_server: false
+remote_ping_cache: -1
+network_compression_threshold: 256
+permissions:
+  default:
+  - bungeecord.command.server
+  - bungeecord.command.list
+  - fastplaybungee.*
+  - fastplaybungee.fire
+  - fastplaybungee.ice
+  - fastplaybungee.lobby
+  - fastplaybungee.play
+  admin:
+  - bungeecord.command.alert
+  - bungeecord.command.end
+  - bungeecord.command.ip
+  - bungeecord.command.reload
+  - bungeecord.command.kick
+  - fastplaybungee.*
+  - fastplaybungee.fire
+  - fastplaybungee.ice
+  - fastplaybungee.lobby
+  - fastplaybungee.play
+log_pings: true
+connection_throttle_limit: 3
+server_connect_timeout: 5000
+timeout: 30000
+player_limit: -1
+prevent_proxy_connections: false
+ip_forward: true
+groups:
+  GustavoxLB:
+  - admin
+remote_ping_timeout: 5000
+connection_throttle: -1
+log_commands: false
+stats: 61dd20d6-9976-4eb2-a012-cf5b678c1abd
+online_mode: false
+forge_support: false
+disabled_commands:
+- disabledcommandhere
+servers:
+  lobby:
+    motd: '&1LOBBY'
+    address: localhost:10001
+    restricted: false
+  ice:
+    motd: '&2ICE'
+    address: localhost:10002
+    restricted: false
+  fire:
+    motd: '&3FIRE'
+    address: localhost:10003
+    restricted: false
+  extra:
+    motd: '&4EXTRA'
+    address: localhost:10004
+    restricted: false

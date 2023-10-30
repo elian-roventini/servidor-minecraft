@@ -1,0 +1,294 @@
+[19:10:35] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[19:10:36] [ServerMain/INFO]: Loaded 7 recipes
+[19:10:37] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[19:10:37] [Server thread/INFO]: Loading properties
+[19:10:37] [Server thread/INFO]: This server is running CraftBukkit version 3819-Spigot-64b565e-0d0b1e5 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT)
+[19:10:37] [Server thread/INFO]: Debug logging is disabled
+[19:10:37] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[19:10:37] [Server thread/INFO]: Using 4 threads for Netty based IO
+[19:10:37] [Server thread/INFO]: Default game type: SURVIVAL
+[19:10:37] [Server thread/INFO]: Generating keypair
+[19:10:37] [Server thread/INFO]: Starting Minecraft server on localhost:10001
+[19:10:37] [Server thread/INFO]: Using default channel type
+[19:10:38] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[19:10:40] [Server thread/WARN]: Legacy plugin PermissionsEx v1.23.4 does not specify an api-version.
+[19:10:40] [Server thread/WARN]: Legacy plugin CommandSync v2.3 does not specify an api-version.
+[19:10:40] [Server thread/WARN]: Legacy plugin PlayerPoints v2.1.4 does not specify an api-version.
+[19:10:40] [Server thread/WARN]: Legacy plugin SexyPEX v1.2.1-B#369 does not specify an api-version.
+[19:10:40] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.4
+[19:10:40] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.23.4
+[19:10:40] [Server thread/WARN]: [PermissionsEx] This server is in offline mode. Unless this server is configured to integrate with a supported proxy (see http://dft.ba/-8ous), UUIDs *may not be stable*!
+[19:10:40] [Server thread/INFO]: [CommandSync] Loading CommandSync v2.3
+[19:10:40] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.8.0
+[19:10:40] [Server thread/INFO]: [ViaVersion] ViaVersion 4.8.0 is now loaded. Registering protocol transformers and injecting...
+[19:10:40] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[19:10:40] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[19:10:40] [Server thread/INFO]: [NametagEdit] Loading NametagEdit v4.5.20
+[19:10:40] [Server thread/INFO]: [floodgate] Loading floodgate v2.2.2-SNAPSHOT (b75-26c11bd)
+[19:10:41] [Server thread/INFO]: [floodgate] Took 470ms to boot Floodgate
+[19:10:41] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[19:10:41] [Server thread/INFO]: [PlayerPoints] Loading PlayerPoints v2.1.4
+[19:10:41] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v5.1.0-SNAPSHOT-654
+[19:10:41] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.20.1) has not yet been tested! Proceed with caution.
+[19:10:42] [Server thread/INFO]: [SexyPEX] Loading SexyPEX v1.2.1-B#369
+[19:10:42] [Server thread/INFO]: [SexyPEX] Registered the sexy backend.
+[19:10:42] [Server thread/INFO]: [SuperLobby] Loading SuperLobby v4.6.4
+[19:10:42] [Server thread/INFO]: [nLogin] Loading nLogin v10.2.28
+[19:10:43] [Server thread/INFO]: [Citizens] Loading Citizens v2.0.32-SNAPSHOT (build 3125)
+[19:10:43] [Server thread/INFO]: [FastAsyncWorldEdit] Loading FastAsyncWorldEdit v2.7.2-SNAPSHOT-561;889e9b7
+[19:10:43] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@6e03bb60]
+[19:10:43] [Server thread/INFO]: [Themis] Loading Themis v0.15.1
+[19:10:43] [Server thread/INFO]: [BungeeGuard] Loading BungeeGuard v1.3-SNAPSHOT
+[19:10:43] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[19:10:43] [Server thread/WARN]: [Vault] Loaded class ru.tehkode.permissions.bukkit.PermissionsEx from PermissionsEx v1.23.4 which is not a depend or softdepend of this plugin.
+[19:10:43] [Server thread/INFO]: [Vault] [Permission] PermissionsEx found: Waiting
+[19:10:43] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[19:10:43] [Server thread/INFO]: [Vault] [Chat] PermissionsEx found: Waiting
+[19:10:43] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[19:10:43] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.1.0-SNAPSHOT-654
+[19:10:43] [Server thread/INFO]: [nLogin] Enabling nLogin v10.2.28
+[19:10:44] [Server thread/INFO]: [nLogin] Successful plugin core start (took 1.09s)
+[19:10:44] [Server thread/INFO]: [0;34;1m          __             _       [m
+[19:10:44] [Server thread/INFO]: [0;34;1m  _ __   / /  ___   __ _(_)_ __  [m
+[19:10:44] [Server thread/INFO]: [0;34;1m | '_ \ / /  / _ \ / _` | | '_ \ [m
+[19:10:44] [Server thread/INFO]: [0;34;1m | | | / /__| (_) | (_| | | | | |[m
+[19:10:44] [Server thread/INFO]: [0;34;1m |_| |_\____/\___/ \__, |_|_| |_|[m
+[19:10:44] [Server thread/INFO]: [0;34;1m                  |___/            [m
+[19:10:44] [Server thread/INFO]: [0;34;1m By: www.nickuc.com - V 10.2.28[m
+[19:10:44] [Server thread/INFO]: [0;34;1m [m
+[19:10:44] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.7.2-SNAPSHOT-561;889e9b7
+[19:10:44] [Server thread/INFO]: LZ4 Compression Binding loaded successfully
+[19:10:44] [Server thread/INFO]: ZSTD Compression Binding loaded successfully
+[19:10:44] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[19:10:44] [Server thread/WARN]: [FastAsyncWorldEdit] Loaded class ru.tehkode.permissions.PermissionManager from PermissionsEx v1.23.4 which is not a depend or softdepend of this plugin.
+[19:10:44] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[19:10:45] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_20_R1.PaperweightFaweAdapter as the Bukkit adapter
+[19:10:45] [Server thread/INFO]: [BungeeGuard] Enabling BungeeGuard v1.3-SNAPSHOT
+[19:10:45] [Server thread/ERROR]: Error occurred while enabling BungeeGuard v1.3-SNAPSHOT (Is it up to date?)
+java.lang.NoSuchMethodError: 'org.bukkit.configuration.file.YamlConfiguration org.bukkit.Server$Spigot.getSpigotConfig()'
+	at me.lucko.bungeeguard.spigot.BungeeGuardBackendPlugin.onEnable(BungeeGuardBackendPlugin.java:57) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:266) ~[spigot-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:342) ~[spigot-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:480) ~[spigot-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugin(CraftServer.java:542) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3819-Spigot-64b565e-0d0b1e5]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugins(CraftServer.java:456) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3819-Spigot-64b565e-0d0b1e5]
+	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:220) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3819-Spigot-64b565e-0d0b1e5]
+	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:973) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3819-Spigot-64b565e-0d0b1e5]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3819-Spigot-64b565e-0d0b1e5]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[19:10:45] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19:10:45] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[19:10:45] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[19:10:45] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[19:10:45] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:10:45] [Server thread/INFO]: Preparing level "world"
+[19:10:45] [Server thread/INFO]: -------- World Settings For [world] --------
+[19:10:45] [Server thread/INFO]: Experience Merge Radius: 3.0
+[19:10:45] [Server thread/INFO]: Mob Spawn Range: 6
+[19:10:45] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[19:10:45] [Server thread/INFO]: Cane Growth Modifier: 100%
+[19:10:45] [Server thread/INFO]: Melon Growth Modifier: 100%
+[19:10:45] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[19:10:45] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[19:10:45] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[19:10:45] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[19:10:45] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[19:10:45] [Server thread/INFO]: Potato Growth Modifier: 100%
+[19:10:45] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[19:10:45] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[19:10:45] [Server thread/INFO]: Vine Growth Modifier: 100%
+[19:10:45] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[19:10:45] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[19:10:45] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[19:10:45] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[19:10:45] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[19:10:45] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[19:10:45] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[19:10:45] [Server thread/INFO]: Entity Activation Range: An 0 / Mo 0 / Ra 0 / Mi 10 / Tiv false / Isa false
+[19:10:45] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[19:10:45] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[19:10:45] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[19:10:45] [Server thread/INFO]: Max TNT Explosions: 100
+[19:10:45] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[19:10:45] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[19:10:45] [Server thread/INFO]: Item Merge Radius: 2.5
+[19:10:45] [Server thread/INFO]: Item Despawn Rate: 6000
+[19:10:45] [Server thread/INFO]: View Distance: 10
+[19:10:45] [Server thread/INFO]: Simulation Distance: 10
+[19:10:45] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[19:10:45] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: false
+[19:10:45] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[19:10:45] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[19:10:45] [Server thread/INFO]: Experience Merge Radius: 3.0
+[19:10:45] [Server thread/INFO]: Mob Spawn Range: 6
+[19:10:45] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[19:10:45] [Server thread/INFO]: Cane Growth Modifier: 100%
+[19:10:45] [Server thread/INFO]: Melon Growth Modifier: 100%
+[19:10:45] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[19:10:45] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[19:10:45] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[19:10:45] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[19:10:45] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[19:10:45] [Server thread/INFO]: Potato Growth Modifier: 100%
+[19:10:45] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[19:10:45] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[19:10:45] [Server thread/INFO]: Vine Growth Modifier: 100%
+[19:10:45] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[19:10:45] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[19:10:45] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[19:10:45] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[19:10:45] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[19:10:45] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[19:10:45] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[19:10:45] [Server thread/INFO]: Entity Activation Range: An 0 / Mo 0 / Ra 0 / Mi 10 / Tiv false / Isa false
+[19:10:45] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[19:10:45] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[19:10:45] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[19:10:45] [Server thread/INFO]: Max TNT Explosions: 100
+[19:10:45] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[19:10:45] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[19:10:45] [Server thread/INFO]: Item Merge Radius: 2.5
+[19:10:45] [Server thread/INFO]: Item Despawn Rate: 6000
+[19:10:45] [Server thread/INFO]: View Distance: 10
+[19:10:45] [Server thread/INFO]: Simulation Distance: 10
+[19:10:45] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[19:10:45] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: false
+[19:10:45] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[19:10:45] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:10:47] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[19:10:47] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[19:10:47] [Worker-Main-19/INFO]: Preparing spawn area: 0%
+[19:10:47] [Worker-Main-19/INFO]: Preparing spawn area: 0%
+[19:10:47] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[19:10:48] [Worker-Main-10/INFO]: Preparing spawn area: 69%
+[19:10:48] [Server thread/INFO]: Time elapsed: 2602 ms
+[19:10:48] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[19:10:50] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[19:10:50] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:10:50] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[19:10:50] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[19:10:50] [Worker-Main-16/INFO]: Preparing spawn area: 0%
+[19:10:50] [Server thread/INFO]: Time elapsed: 2381 ms
+[19:10:50] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.4
+[19:10:50] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[19:10:50] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.4
+[19:10:50] [Server thread/INFO]: [PermissionsEx] Initializing file backend
+[19:10:50] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[19:10:50] [Server thread/INFO]: WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
+[19:10:50] [Server thread/INFO]: [Vault][Permission] PermissionsEx hooked.
+[19:10:50] [Server thread/INFO]: [Vault] [Vault][Chat] PermissionsEx_Chat hooked.
+[19:10:50] [Server thread/INFO]: [CommandSync] Enabling CommandSync v2.3
+[19:10:50] [Server thread/INFO]: [CommandSync] Configuration file loaded.
+[19:10:50] [Server thread/INFO]: [CommandSync] Connected to localhost:10011 under name lobby.
+[19:10:50] [Server thread/INFO]: [CommandSync] All data loaded.
+[19:10:50] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.8.0
+[19:10:50] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20/1.20.1 (763)
+[19:10:50] [Server thread/INFO]: [NametagEdit] Enabling NametagEdit v4.5.20
+[19:10:50] [Server thread/INFO]: [NametagEdit] Successfully loaded using bukkit version: v1_20_R1
+[19:10:50] [Server thread/INFO]: [NametagEdit] Found PermissionsEx! Hooking in.
+[19:10:50] [Server thread/WARN]: [NametagEdit] Loaded class ru.tehkode.permissions.events.PermissionEntityEvent from PermissionsEx v1.23.4 which is not a depend or softdepend of this plugin.
+[19:10:50] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.2-SNAPSHOT (b75-26c11bd)
+[19:10:50] [Thread-12/WARN]: [PermissionsEx] The updater could not find any files for the project id 31279
+[19:10:50] [Server thread/INFO]: [PlayerPoints] Enabling PlayerPoints v2.1.4
+[19:10:50] [Server thread/INFO]: [SexyPEX] Enabling SexyPEX v1.2.1-B#369
+[19:10:50] [Server thread/INFO]: [SuperLobby] Enabling SuperLobby v4.6.4
+[19:10:50] [Server thread/INFO]: [0;33;1m-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=[m
+[19:10:50] [Server thread/INFO]:    _____                       _           _     _           
+[19:10:50] [Server thread/INFO]:   / ____|                     | |         | |   | |          
+[19:10:50] [Server thread/INFO]:  | (___  _   _ _ __   ___ _ __| |     ___ | |__ | |__  _   _ 
+[19:10:50] [Server thread/INFO]:   \___ \| | | | '_ \ / _ \ '__| |    / _ \| '_ \| '_ \| | | |
+[19:10:50] [Server thread/INFO]:   ____) | |_| | |_) |  __/ |  | |___| (_) | |_) | |_) | |_| |
+[19:10:50] [Server thread/INFO]:  |_____/ \__,_| .__/ \___|_|  |______\___/|_.__/|_.__/ \__, |
+[19:10:50] [Server thread/INFO]:               | |                                       __/ |
+[19:10:50] [Server thread/INFO]:               |_|                                      |___/ 
+[19:10:50] [Server thread/INFO]:     
+[19:10:50] [Server thread/INFO]: [0;33;1m-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=[m
+[19:10:50] [Server thread/INFO]: [0;33;1m[[0;37;22mSuperLobby[0;33;1m][0;37;22m Deluxe Version: V4.6.4[m
+[19:10:50] [Server thread/INFO]: [0;33;1m[[0;37;22mSuperLobby[0;33;1m][0;37;22m Plugin Create by PedroJM96.[m
+[19:10:50] [Server thread/INFO]: [0;33;1m[[0;37;22mSuperLobby[0;33;1m][0;37;22m Loading Libraries...[m
+[19:10:50] [Server thread/INFO]: [0;33;1m[[0;37;22mSuperLobby[0;33;1m][0;37;22m Loading library commons-lang-commons-lang-2.6[m
+[19:10:50] [Server thread/INFO]: [0;33;1m[[0;37;22mSuperLobby[0;33;1m][0;37;22m commons-lang-commons-lang-2.6 library loaded successfully.[m
+[19:10:50] [Server thread/INFO]: [0;33;1m[[0;37;22mSuperLobby[0;33;1m][0;37;22m Loading library commons-codec-commons-codec-1.15[m
+[19:10:50] [Server thread/INFO]: [0;33;1m[[0;37;22mSuperLobby[0;33;1m][0;37;22m commons-codec-commons-codec-1.15 library loaded successfully.[m
+[19:10:50] [Server thread/INFO]: [0;33;1m[[0;37;22mSuperLobby[0;33;1m][0;37;22m Loading library com.google.code.gson-gson-2.9.0[m
+[19:10:50] [Server thread/INFO]: [0;33;1m[[0;37;22mSuperLobby[0;33;1m][0;37;22m com.google.code.gson-gson-2.9.0 library loaded successfully.[m
+[19:10:51] [Server thread/INFO]: [0;33;1m[[0;37;22mSuperLobby[0;33;1m][0;37;22m Loading configuration...[m
+[19:10:51] [Server thread/INFO]: [0;33;1m[[0;37;22mSuperLobby[0;33;1m][0;37;22m Load config.yml[m
+[19:10:52] [Server thread/INFO]: [0;33;1m[[0;37;22mSuperLobby[0;33;1m][0;30;1m config.yml loaded.[m
+[19:10:52] [Server thread/INFO]: [0;33;1m[[0;37;22mSuperLobby[0;33;1m][0;37;22m Load messages_EN.yml[m
+[19:10:52] [Server thread/INFO]: [0;33;1m[[0;37;22mSuperLobby[0;33;1m][0;30;1m messages_EN.yml loaded.[m
+[19:10:52] [Server thread/INFO]: [0;33;1m[[0;37;22mSuperLobby[0;33;1m][0;37;22m Load spawn.yml[m
+[19:10:52] [Server thread/INFO]: [0;33;1m[[0;37;22mSuperLobby[0;33;1m][0;30;1m spawn.yml loaded.[m
+[19:10:52] [Server thread/INFO]: [0;33;1m[[0;37;22mSuperLobby[0;33;1m][0;37;22m Load chat.yml[m
+[19:10:52] [Server thread/INFO]: [0;33;1m[[0;37;22mSuperLobby[0;33;1m][0;30;1m chat.yml loaded.[m
+[19:10:52] [Server thread/INFO]: [0;33;1m[[0;37;22mSuperLobby[0;33;1m][0;37;22m Load infocommands.yml[m
+[19:10:52] [Server thread/INFO]: [0;33;1m[[0;37;22mSuperLobby[0;33;1m][0;30;1m infocommands.yml loaded.[m
+[19:10:52] [Server thread/INFO]: [0;33;1m[[0;37;22mSuperLobby[0;33;1m][0;37;22m Register info command /info[m
+[19:10:52] [Server thread/INFO]: [0;33;1m[[0;37;22mSuperLobby[0;33;1m][0;37;22m Register info command /youtube[m
+[19:10:52] [Server thread/INFO]: [0;33;1m[[0;37;22mSuperLobby[0;33;1m][0;37;22m Register info command /discord[m
+[19:10:52] [Server thread/INFO]: [0;33;1m[[0;37;22mSuperLobby[0;33;1m][0;37;22m Register info command /ts3[m
+[19:10:52] [Server thread/INFO]: [0;33;1m[[0;37;22mSuperLobby[0;33;1m][0;37;22m Register info command /help[m
+[19:10:52] [Server thread/INFO]: [0;33;1m[[0;37;22mSuperLobby[0;33;1m][0;37;22m Load customevents.yml[m
+[19:10:52] [Server thread/INFO]: [0;33;1m[[0;37;22mSuperLobby[0;33;1m][0;30;1m customevents.yml loaded.[m
+[19:10:52] [Server thread/INFO]: [0;33;1m[[0;37;22mSuperLobby[0;33;1m][0;37;22m Load items.yml[m
+[19:10:52] [Server thread/INFO]: [0;33;1m[[0;37;22mSuperLobby[0;33;1m][0;30;1m items.yml loaded.[m
+[19:10:52] [Server thread/INFO]: [0;33;1m[[0;37;22mSuperLobby[0;33;1m][0;37;22m Load menus.yml[m
+[19:10:52] [Server thread/INFO]: [0;33;1m[[0;37;22mSuperLobby[0;33;1m][0;30;1m menus.yml loaded.[m
+[19:10:52] [Server thread/INFO]: [0;33;1m[[0;37;22mSuperLobby[0;33;1m][0;37;22m Register command menu /game[m
+[19:10:52] [Server thread/INFO]: [0;33;1m[[0;37;22mSuperLobby[0;33;1m][0;37;22m Register command menu /profile[m
+[19:10:52] [Server thread/INFO]: [0;33;1m[[0;37;22mSuperLobby[0;33;1m][0;37;22m Load board.yml[m
+[19:10:52] [Server thread/INFO]: [0;33;1m[[0;37;22mSuperLobby[0;33;1m][0;30;1m board.yml loaded.[m
+[19:10:52] [Server thread/INFO]: [0;33;1m[[0;37;22mSuperLobby[0;33;1m][0;37;22m Load announcer.yml[m
+[19:10:52] [Server thread/INFO]: [0;33;1m[[0;37;22mSuperLobby[0;33;1m][0;30;1m announcer.yml loaded.[m
+[19:10:52] [Server thread/INFO]: [0;33;1m[[0;37;22mSuperLobby[0;33;1m][0;37;22m Load firstjoin.yml[m
+[19:10:52] [Server thread/INFO]: [0;33;1m[[0;37;22mSuperLobby[0;33;1m][0;30;1m firstjoin.yml loaded.[m
+[19:10:52] [Server thread/INFO]: [0;33;1m[[0;37;22mSuperLobby[0;33;1m][0;37;22m Register commands...[m
+[19:10:52] [Server thread/INFO]: [0;33;1m[[0;37;22mSuperLobby[0;33;1m][0;37;22m Register main command superlobby[m
+[19:10:52] [Server thread/INFO]: [0;33;1m[[0;37;22mSuperLobby[0;33;1m][0;37;22m Register sub-command setspawn[m
+[19:10:52] [Server thread/INFO]: [0;33;1m[[0;37;22mSuperLobby[0;33;1m][0;37;22m Register sub-command setspawnpermission[m
+[19:10:52] [Server thread/INFO]: [0;33;1m[[0;37;22mSuperLobby[0;33;1m][0;37;22m Register sub-command setspawnradius[m
+[19:10:52] [Server thread/INFO]: [0;33;1m[[0;37;22mSuperLobby[0;33;1m][0;37;22m Register sub-command remspawn[m
+[19:10:52] [Server thread/INFO]: [0;33;1m[[0;37;22mSuperLobby[0;33;1m][0;37;22m Register sub-command reload[m
+[19:10:52] [Server thread/INFO]: [0;33;1m[[0;37;22mSuperLobby[0;33;1m][0;37;22m Register sub-command help[m
+[19:10:52] [Server thread/INFO]: [0;33;1m[[0;37;22mSuperLobby[0;33;1m][0;37;22m Register sub-command openmenu[m
+[19:10:52] [Server thread/INFO]: [0;33;1m[[0;37;22mSuperLobby[0;33;1m][0;30;1m Hooked Vault Permissions[m
+[19:10:52] [Server thread/INFO]: [0;33;1m[[0;37;22mSuperLobby[0;33;1m][0;30;1m Hooked Vault Chat[m
+[19:10:52] [Server thread/INFO]: [0;33;1m[[0;37;22mSuperLobby[0;33;1m][0;30;1m Hooked PlayerPoints[m
+[19:10:52] [Server thread/INFO]: [0;33;1m[[0;37;22mSuperLobby[0;33;1m][0;30;1m Hooked PlaceholderAPI[m
+[19:10:52] [Server thread/INFO]: [0;33;1m[[0;37;22mSuperLobby[0;33;1m][0;30;1m Hooked ViaVersion[m
+[19:10:52] [Server thread/INFO]: [0;33;1m[[0;37;22mSuperLobby[0;33;1m][0;37;22m [0;37;22mA total of [0;36;1m2 [0;37;22mmenus were loaded.[m
+[19:10:52] [Server thread/INFO]: [0;33;1m-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=[m
+[19:10:52] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.32-SNAPSHOT (build 3125)
+[19:10:52] [Server thread/INFO]: [Citizens] Loading external libraries
+[19:10:52] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: citizensplaceholder [1.0.0]
+[19:10:52] [Server thread/INFO]: [Citizens] Loaded economy handling via Vault.
+[19:10:52] [Server thread/INFO]: [Themis] Enabling Themis v0.15.1
+[19:10:52] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[19:10:53] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[19:10:53] [Server thread/INFO]: [0;33;22m0 placeholder hook(s) registered![m
+[19:10:53] [Server thread/INFO]: Done (7.647s)! For help, type "help"
+[19:10:53] [Craft Scheduler Thread - 4/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[19:10:53] [Server thread/INFO]: [Citizens] Loaded 2 NPCs.
+[19:10:53] [Craft Scheduler Thread - 0/INFO]: [Vault] Checking for Updates ... 
+[19:10:53] [Craft Scheduler Thread - 0/INFO]: [Vault] No new version available
+[19:11:43] [User Authenticator #1/INFO]: UUID of player GustavoxLB is 33bc056f-ca6c-3da3-af02-a4a761a8d837
+[19:11:44] [Server thread/INFO]: GustavoxLB[/127.0.0.1:59247] logged in with entity id 9 at ([world]1.4879732569964577, 100.0, 1.5327646162795474)
+[19:11:53] [Server thread/WARN]: [nLogin] Loaded class net.citizensnpcs.api.CitizensAPI from Citizens v2.0.32-SNAPSHOT (build 3125) which is not a depend or softdepend of this plugin.
+[19:12:17] [Server thread/INFO]: GustavoxLB issued server command: /game
+[19:12:23] [Server thread/INFO]: [0;32;1mSyncing command /send GustavoxLB ice to console [Bungee]...[m
+[19:12:23] [Thread-13/INFO]: [CommandSync] [localhost:10011] Sent output - console@#@bungee@#@send+GustavoxLB+ice
+[19:15:36] [Server thread/INFO]: GustavoxLB issued server command: /game
+[19:15:38] [Server thread/INFO]: [0;32;1mSyncing command /send GustavoxLB ice to console [Bungee]...[m
+[19:15:39] [Thread-13/INFO]: [CommandSync] [localhost:10011] Sent output - console@#@bungee@#@send+GustavoxLB+ice
+[19:15:39] [Server thread/INFO]: GustavoxLB lost connection: Disconnected
+[19:18:12] [User Authenticator #2/INFO]: UUID of player GustavoxLB is 33bc056f-ca6c-3da3-af02-a4a761a8d837
+[19:18:12] [Server thread/INFO]: GustavoxLB[/127.0.0.1:63436] logged in with entity id 10 at ([world]1.4879732569964577, 100.0, 1.5327646162795474)
+[19:18:22] [Server thread/INFO]: GustavoxLB issued server command: /game
+[19:18:23] [Server thread/INFO]: [0;32;1mSyncing command /send GustavoxLB fire to console [Bungee]...[m
+[19:18:24] [Thread-13/INFO]: [CommandSync] [localhost:10011] Sent output - console@#@bungee@#@send+GustavoxLB+fire
+[19:18:24] [Server thread/INFO]: GustavoxLB lost connection: Disconnected
+[19:20:43] [User Authenticator #3/INFO]: UUID of player GustavoxLB is 33bc056f-ca6c-3da3-af02-a4a761a8d837
+[19:20:43] [Server thread/INFO]: GustavoxLB[/127.0.0.1:65058] logged in with entity id 11 at ([world]1.4879732569964577, 100.0, 1.5327646162795474)
+[19:24:53] [Server thread/INFO]: GustavoxLB issued server command: /profile
+[19:33:58] [Server thread/INFO]: GustavoxLB lost connection: Disconnected
+[19:34:01] [Thread-13/INFO]: [CommandSync] Lost connection to the server.

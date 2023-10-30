@@ -1,0 +1,24 @@
+[07/01/2023 23:38:00]:           __             _       
+[07/01/2023 23:38:00]:   _ __   / /  ___   __ _(_)_ __  
+[07/01/2023 23:38:00]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[07/01/2023 23:38:00]:  | | | / /__| (_) | (_| | | | | |
+[07/01/2023 23:38:00]:  |_| |_\____/\___/ \__, |_|_| |_|
+[07/01/2023 23:38:00]:                   |___/            
+[07/01/2023 23:38:00]:  By: www.nickuc.com - V 10.1.16
+[07/01/2023 23:38:00]: 
+[07/01/2023 23:38:00]: §3[nLogin] [DEBUG] Detecting hardware and software configurations...
+[07/01/2023 23:38:00]: §3[nLogin] [DEBUG] All settings were loaded in 65 ms.
+[07/01/2023 23:38:00]: §3[nLogin] [DEBUG] Loading the messages_en.yml message file...
+[07/01/2023 23:38:00]: §3[nLogin] [DEBUG] All plugin messages were loaded in 26 ms (languageByClient=false).
+[07/01/2023 23:38:00]: §3[nLogin] [DEBUG] All proxy settings were loaded in 0 ms.
+[07/01/2023 23:38:00]: §3[nLogin] [DEBUG] Starting logger filter...
+[07/01/2023 23:38:00]: §3[nLogin] [DEBUG] Loading database...
+[07/01/2023 23:38:01]: [nLogin] nLogin was loaded in 570ms.
+[07/01/2023 23:38:50]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `realname` = 'GustavoxLB', `uniqueId` = 824476bcddde41aa818b63681b82f4f0,  `premiumId` = 824476bcddde41aa818b63681b82f4f0,  `premium` = 1,  `password` = null, `address` = '192.168.15.19', `regdate` = 2023-07-01 23:37:17.185, `lastlogin` = 2023-07-01 23:38:50.805, `email` = null, `twitter` = null, `discord` = null, `settings` = null WHERE `id` = 1"
+[07/01/2023 23:38:50]: [nLogin] The user GustavoxLB has successfully logged in.
+[07/01/2023 23:38:50]: [nLogin] The user GustavoxLB logged in automatically for having a premium account.
+[07/01/2023 23:40:05]: [nLogin] Successful plugin core shutdown (took 0.00s)
+[07/01/2023 23:40:05]: [nLogin] 
+[07/01/2023 23:40:05]: [nLogin] Shutting down nLogin V 10.1.16...
+[07/01/2023 23:40:05]: [nLogin] 
+[07/01/2023 23:40:05]: [nLogin] nLogin was unloaded in 2ms.

@@ -1,0 +1,6 @@
+ip=localhost
+port=10011
+heartbeat=1000
+name=ice
+pass=lol123
+debug=false

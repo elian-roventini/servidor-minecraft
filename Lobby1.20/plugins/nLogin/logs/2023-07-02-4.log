@@ -1,0 +1,27 @@
+[07/02/2023 00:30:59]:           __             _       
+[07/02/2023 00:30:59]:   _ __   / /  ___   __ _(_)_ __  
+[07/02/2023 00:30:59]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[07/02/2023 00:30:59]:  | | | / /__| (_) | (_| | | | | |
+[07/02/2023 00:30:59]:  |_| |_\____/\___/ \__, |_|_| |_|
+[07/02/2023 00:30:59]:                   |___/            
+[07/02/2023 00:30:59]:  By: www.nickuc.com - V 10.1.16
+[07/02/2023 00:30:59]: 
+[07/02/2023 00:30:59]: §3[nLogin] [DEBUG] Detecting hardware and software configurations...
+[07/02/2023 00:30:59]: §3[nLogin] [DEBUG] All settings were loaded in 65 ms.
+[07/02/2023 00:30:59]: §3[nLogin] [DEBUG] Loading the messages_en.yml message file...
+[07/02/2023 00:30:59]: §3[nLogin] [DEBUG] All plugin messages were loaded in 24 ms (languageByClient=false).
+[07/02/2023 00:30:59]: §3[nLogin] [DEBUG] All proxy settings were loaded in 0 ms.
+[07/02/2023 00:30:59]: §3[nLogin] [DEBUG] Starting logger filter...
+[07/02/2023 00:30:59]: §3[nLogin] [DEBUG] Loading database...
+[07/02/2023 00:30:59]: [nLogin] nLogin was loaded in 523ms.
+[07/02/2023 00:32:24]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `realname` = 'GustavoxLB', `uniqueId` = 824476bcddde41aa818b63681b82f4f0,  `premiumId` = 824476bcddde41aa818b63681b82f4f0,  `premium` = 1,  `password` = null, `address` = '192.168.15.19', `regdate` = 2023-07-01 23:37:17.185, `lastlogin` = 2023-07-02 00:32:24.77, `email` = null, `twitter` = null, `discord` = null, `settings` = null WHERE `id` = 1"
+[07/02/2023 00:32:24]: [nLogin] The user GustavoxLB has successfully logged in.
+[07/02/2023 00:32:24]: [nLogin] The user GustavoxLB logged in automatically for having a premium account.
+[07/02/2023 00:54:44]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `realname` = 'GustavoxLB', `uniqueId` = 824476bcddde41aa818b63681b82f4f0,  `premiumId` = 824476bcddde41aa818b63681b82f4f0,  `premium` = 1,  `password` = null, `address` = '192.168.15.19', `regdate` = 2023-07-01 23:37:17.185, `lastlogin` = 2023-07-02 00:54:44.58, `email` = null, `twitter` = null, `discord` = null, `settings` = null WHERE `id` = 1"
+[07/02/2023 00:54:44]: [nLogin] The user GustavoxLB has successfully logged in.
+[07/02/2023 00:54:44]: [nLogin] The user GustavoxLB logged in automatically for having a premium account.
+[07/02/2023 01:14:40]: [nLogin] Successful plugin core shutdown (took 0.00s)
+[07/02/2023 01:14:40]: [nLogin] 
+[07/02/2023 01:14:40]: [nLogin] Shutting down nLogin V 10.1.16...
+[07/02/2023 01:14:40]: [nLogin] 
+[07/02/2023 01:14:40]: [nLogin] nLogin was unloaded in 2ms.

@@ -1,0 +1,146 @@
+# 
+# +----------------------------------------------------------------------------------------------+ #
+# |    _____                       _           _     _           _____       _                   | #
+# |   / ____|                     | |         | |   | |         |  __ \     | |                  | #
+# |  | (___  _   _ _ __   ___ _ __| |     ___ | |__ | |__  _   _| |  | | ___| |_   ___  _____    | #
+# |   \___ \| | | | '_ \ / _ \ '__| |    / _ \| '_ \| '_ \| | | | |  | |/ _ \ | | | \ \/ / _ \   | #
+# |   ____) | |_| | |_) |  __/ |  | |___| (_) | |_) | |_) | |_| | |__| |  __/ | |_| |>  <  __/   | #
+# |  |_____/ \__,_| .__/ \___|_|  |______\___/|_.__/|_.__/ \__, |_____/ \___|_|\__,_/_/\_\___|   | #
+# |               | |                                       __/ |                                | #
+# |               |_|                                      |___/                                 | #
+# |                                                                                              | #
+# |                                                                                              | #
+# |  WIKI:         https://pedrojm96.com/minecraft-plugin/superlobbydeluxe                       | #
+# |  BUG REPORTS: https://www.spigotmc.org/threads/superlobbydeluxe.132949                       | #
+# |  AUTHOR: PedroJM96 (pedrojm96.com)                                                           | #
+# |  OFFICIAL SERVER: mc.minepal.net                                                             | #
+# |                                                                                              | #
+# +----------------------------------------------------------------------------------------------+ #
+# +----------------------------------------------------------------------------------------------+ #
+# |                                          Menu Nodes                                          | #
+# +----------------------------------------------------------------------------------------------+ #
+# |                                                                                              | #
+# |  settings-name: The name of the menu.                                                        | #
+# |  settings-rows: Number of rows in the menu. (1,2,3,4,5,6).                                   | #
+# |  settings-world: World where the menu works. (Do not place to work on all worlds).           | #
+# |  settings-open-commands: Command to open the menu.                                           | #
+# |  settings-permission: Permission to use the menu.                                            | #
+# |  settings-open-sound: Sound that will sound when you open the menu.                          | #
+# |  settings-glass-enable: To place decoration glasses. default false                           | #
+# |  settings-glass-color: The color of the glasses. From 0 to 15                                | #
+# |  items: List of items that will contain the menu.                                            | #
+# |                                                                                              | #
+# |                                                                                              | #
+# +----------------------------------------------------------------------------------------------+ #
+# +----------------------------------------------------------------------------------------------+ #
+# |                                          Items Nodes                                         | #
+# +----------------------------------------------------------------------------------------------+ #
+# |                                                                                              | #
+# |  name: The name of the item.                                                                 | #
+# |  lore: The description of the item.                                                          | #
+# |  material: The material of the item. Example: "SKULL_ITEM:3","DIAMOND".                      | #
+# |  id: The id of the item material (https://www.minecraftinfo.com/idlist.htm).                 | #
+# |  data: Value of the material type of the item.                                               | #
+# |  slot: Location in the inventory of the item.                                                | #
+# |  commands: Command that is executed when clicking.  (server, player, console, op,            | #
+# |            broadcast, give, money, points, tell, open, world).                               | #
+# |  permission: Permission to use the item.                                                     | #
+# |  price: Price to use the item. default none.                                                 | #
+# |  keep-open: To keep inventory open. default false.                                           | #
+# |  permission-to-view: Permission to view the inventory. default false.                        | #
+# |  skull: To use heads with skin.                                                              | #
+# |        (url: address.png | textures: <Base64 code> | web: <player> | <player>)               | #
+# |  enchant-glow: To add enchantment colors to the items. default false                         | #
+# |  version-check: To check if it is the correct version of minecraft.                          | #
+# |                    default false (Requires ViaVersion)                                       | #
+# |  version-list: List of versions to check in check version.                                   | #
+# |  no-version-message: Message to show if the version is not compatible.                       | #
+# |                      Use <version> to show compatible versions in the message.               | #
+# |  no-permision-message: Message that will be shown to the player when he does not have the    | #
+# |                        permissions to use the item.                                          | #
+# |                                                                                              | #
+# |                                                                                              | #
+# +----------------------------------------------------------------------------------------------+ #
+# +----------------------------------------------------------------------------------------------+ #
+# | To create more item simply copy the previous one and paste it here within items.             | #
+# | To create more menus, copy the previous menu and paste it down in a clean place.             | #
+# +----------------------------------------------------------------------------------------------+ #
+game:
+  settings-name: '&c&lSERVIDORES &a&lBIG&6&lLANDIA'
+  settings-rows: 3
+  settings-open-commands: game
+  settings-permission: big.lobby
+  settings-open-sound: NOTE_PLING
+  settings-glass-enable: false
+  settings-glass-color: 0
+  items:
+    Ice:
+      name: '&aIce'
+      lore:
+      - '&7Jogue um survival e interaja com outros' 
+      - '&7jogadores, tudo isso em um lugar so,'
+      - '&7venha se aventurar, explore,construa,evolua e '
+      - '&7cresça para se tornar o melhor sobrevivente.'
+      - '&c• Terreno modificado Ice'
+      - '&c• Eventos'
+      - '&c• Area Livre'
+      - '&c• Sobrevivencia'
+      - '&aVenha conferir o servidor Survival ICE.'
+      material: ICE
+      version-check: true
+      version-list:
+      - 1.20.1
+      no-version-message: '&c[!] Disponivel apenas na <version>.'
+      slot: 22
+      commands:
+      - 'sync console bungee send <player> ice'
+      keep-open: true
+    fire:
+      name: '&aFire'
+      lore:
+      - '&7Jogue um survival e interaja com outros' 
+      - '&7jogadores, tudo isso em um lugar so,'
+      - '&7venha se aventurar, explore,construa,evolua e '
+      - '&7cresça para se tornar o melhor sobrevivente.'
+      - '&c• Terreno modificado Fire'
+      - '&c• Eventos'
+      - '&c• Area Livre'
+      - '&c• Sobrevivencia'
+      - '&aVenha conferir o servidor Survival Fire.'
+      material: CAMPFIRE
+      version-check: false
+      version-list:
+      - 1.20.1
+      no-version-message: '&c[!] Disponivel apenas na <version>.'
+      slot: 24
+      commands:
+      - 'sync console bungee send <player> fire'
+      keep-open: false
+    menu:
+      name: '&6Visite nosso site'
+      lore:
+      - '&aWWW.BIGLANDIA.NET'
+      material: NETHER_STAR
+      slot: 5
+      commands:
+      - 'tell: &aAcesse: WWW.BIGLANDIA.NET'
+      keep-open: true
+profile:
+  settings-name: '&aPerfil'
+  settings-rows: 3
+  settings-open-commands: profile
+  settings-permission: big.lobby
+  settings-open-sound: NOTE_PLING
+  settings-glass-enable: false
+  settings-glass-color: 0
+  items:
+    skull:
+      name: '&6&l<3> &b&l<player> &6&l<3>'
+      lore:
+      - '&a[-] &7Nome: &f<player>'
+      - '&a[-] &7Rank: &f<rank>'
+      material: DIAMOND
+      material-old: DIAMOND
+      slot: 12
+      skull: <player>
+      keep-open: true

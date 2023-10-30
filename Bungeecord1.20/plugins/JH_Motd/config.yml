@@ -1,0 +1,21 @@
+# Versao fake isso e mostrado a frente dos slots pode ser usado como 3° linha para o motd
+fakeVersion:
+  ligado: true
+  versions:
+  - "&eVenha jogar"
+  - "&eEntra ai!"
+
+# Motd aleatorio cada vez que o jogador atualizar a lista ira aparecer um
+motds:
+- "              &eUnisantos Network &f[1.8-1.20]{newline}             &c&lVENHA JOGAR - &4&lFIRE &f& &b&lICE"
+- "              &aUnisantos Network &f[1.8-1.20]{newline}             &6&lVENHA JOGAR - &4&lFIRE &f& &b&lICE"
+- "              &6Unisantos Network &f[1.8-1.20]{newline}             &f&lVENHA JOGAR - &4&lFIRE &f& &b&lICE"
+- "              &cUnisantos Network &f[1.8-1.20]{newline}             &4&lVENHA JOGAR - &4&lFIRE &f& &b&lICE"
+
+# Lista de jogadores mostrados quando se passa o mouse em cima dos slots
+playerList:
+  ligado: false
+  fakePlayers:
+  - "&cServidor Unisantos"
+  - "Entre ja"
+  - "Estamos esprando por voce"

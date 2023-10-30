@@ -1,0 +1,269 @@
+groups:
+  diretor:
+    options:
+      prefix: '&4[Diretor] '
+    permissions:
+    - biglandia.gerente
+    - biglandia.coordenador
+    - biglandia.equipe
+    - biglandia.vip
+    - biglandia.admin
+    - nte.diretor
+    - citizens.admin.*
+    - system.chat.cor.diretor
+    - PlayerPoints.pay
+    - PlayerPoints.give
+    - PlayerPoints.take
+    - PlayerPoints.set
+    - PlayerPoints.reset
+    - PlayerPoints.look
+    - PlayerPoints.lead
+    - system.chat.destaque
+    - system.clear
+    - system.clear.outros
+    - system.speed
+    - system.fly.staff
+    - system.god
+    - system.heal
+    - system.fly
+    - system.vanish.bypass
+    - system.invsee.admin
+    - system.invsee
+    - system.tp
+    - system.tphere
+    - system.home.admin
+    - system.vanish
+    - CustomEnderChest.admin
+    - factions.admin
+    - factions.*
+    - factions.voar.bypass
+    - '*'
+    - big.lobby
+  dev:
+    options:
+      prefix: '&c[Dev] '
+    permissions:
+    - nte.desenvolvedor
+    - biglandia.gerente
+    - biglandia.coordenador
+    - biglandia.equipe
+    - biglandia.vip
+    - biglandia.admin
+    - citizens.admin.*
+    - system.chat.cor.desenvolvedor
+    - PlayerPoints.pay
+    - PlayerPoints.give
+    - PlayerPoints.take
+    - PlayerPoints.set
+    - PlayerPoints.reset
+    - PlayerPoints.look
+    - PlayerPoints.lead
+    - system.chat.destaque
+    - system.clear
+    - system.clear.outros
+    - system.speed
+    - system.fly.staff
+    - system.god
+    - system.heal
+    - system.fly
+    - system.vanish.bypass
+    - system.invsee.admin
+    - system.invsee
+    - system.tp
+    - system.tphere
+    - system.home.admin
+    - system.vanish
+    - CustomEnderChest.admin
+    - factions.admin
+    - factions.*
+    - factions.voar.bypass
+    - ab.*
+    - big.lobby
+    inheritance:
+    - membro
+    - vip
+    - administrador
+    - moderador
+    - coordenador
+  coordenador:
+    options:
+      prefix: '&3[Coordenador] '
+    permissions:
+    - nte.coordenador
+    - biglandia.gerente
+    - biglandia.coordenador
+    - biglandia.equipe
+    - biglandia.vip
+    - biglandia.admin
+    - citizens.admin.*
+    - system.chat.cor.coordenador
+    - PlayerPoints.pay
+    - PlayerPoints.give
+    - PlayerPoints.take
+    - PlayerPoints.set
+    - PlayerPoints.reset
+    - PlayerPoints.look
+    - PlayerPoints.lead
+    - system.chat.destaque
+    - system.clear
+    - system.clear.outros
+    - system.speed
+    - system.fly.staff
+    - system.god
+    - system.heal
+    - system.fly
+    - system.vanish.bypass
+    - system.invsee.admin
+    - system.invsee
+    - system.tp
+    - system.tphere
+    - system.home.admin
+    - system.vanish
+    - CustomEnderChest.admin
+    - factions.admin
+    - factions.*
+    - factions.voar.bypass
+    - ab.*
+    - nlogin.*
+    - matrix.*
+    - commandnpc.admin
+    - commandnpc.*
+    - big.lobby
+    inheritance:
+    - membro
+    - big
+    - administrador
+    - moderador
+  administrador:
+    options:
+      prefix: '&a[Administrador] '
+    permissions:
+    - nte.administrador
+    - biglandia.equipe
+    - biglandia.vip
+    - biglandia.admin
+    - ab.*
+    - nocheatplus.*
+    - holograms.*
+    - ab.kick.use
+    - ab.ban.perma
+    - ab.ban.temp
+    - ab.ban.undo
+    - ab.ipban.perma
+    - ab.ipban.temp
+    - ab.mute.perma
+    - ab.mute.temp
+    - ab.mute.undo
+    - ab.tempmute.perma
+    - ab.tempmute.temp
+    - ab.tempmute.undo
+    - ab.warn.perma
+    - ab.warn.temp
+    - ab.warn.undo
+    - ab.warns.own
+    - ab.warns.other
+    - ab.check
+    - ab.check.ip
+    - ab.banlist
+    - ab.history
+    - big.lobby
+    inheritance:
+    - membro
+    - big
+    - moderador
+  moderador:
+    options:
+      prefix: '&2[Moderador] '
+    permissions:
+    - nte.moderador
+    - biglandia.equipe
+    - biglandia.vip
+    - big.lobby
+    inheritance:
+    - membro
+    - big+
+    - big
+    - ajudante
+  ajudante:
+    options:
+      prefix: '&e[Ajudante] '
+    permissions:
+    - nte.ajudante
+    - biglandia.equipe
+    - biglandia.vip
+    inheritance:
+    - membro
+    - big
+  yt+:
+    options:
+      prefix: '&c[YT+] '
+    permissions:
+    - nte.ytm
+    - biglandia.vip
+    inheritance:
+    - membro
+    - big
+  yt:
+    options:
+      prefix: '&c[YT] '
+    permissions:
+    - nte.yt
+    - biglandia.vip
+    inheritance:
+    - membro
+    - big
+  miniyt:
+    options:
+      prefix: '&c[MiniYT] '
+    permissions:
+    - nte.miniyt
+    - biglandia.vip
+    inheritance:
+    - membro
+    - big
+  BIG++:
+    options:
+      prefix: '&c[BIG++] '
+    permissions:
+    - nte.big++
+    - biglandia.vip
+    inheritance:
+    - membro
+    - big
+  BIG+:
+    options:
+      prefix: '&5[BIG+] '
+    permissions:
+    - nte.big+
+    - biglandia.vip
+    inheritance:
+    - membro
+    - big
+  BIG:
+    options:
+      prefix: '&3[BIG] '
+    permissions:
+    - nte.big
+    - biglandia.vip
+    inheritance:
+    - membro
+    - big
+  membro:
+    options:
+      default: true
+      prefix: '&7[Membro] '
+    permissions:
+    - superlobby.menu
+    - nte.default
+    - -bukkit.commands
+    - -bukkit.command
+    - -minecraft.commands
+    - -minecraft.command
+    - big.lobby
+schema-version: 2
+users:
+  68336702-a252-3460-8b15-e02c6114642d:
+    group:
+    - dev
+    options:
+      name: Secr3tsBR

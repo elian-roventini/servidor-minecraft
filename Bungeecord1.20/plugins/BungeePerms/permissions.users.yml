@@ -1,0 +1,9 @@
+# 
+#  wea_ondara:
+#    groups:
+#    - Admin
+
+users:
+  33bc056f-ca6c-3da3-af02-a4a761a8d837:
+    groups:
+    - Admin
